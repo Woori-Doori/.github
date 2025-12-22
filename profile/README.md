@@ -27,6 +27,12 @@
 
 ---
 
+## 서비스 소개 영상
+
+https://github.com/user-attachments/assets/7010eef3-c6c2-4935-af7e-51bba3b71b91
+
+---
+
 ## 기획 배경 – 문제 상황 정의
 ### 1. 소비 데이터는 많지만, 해석은 사용자 몫으로 남아 있음
 
