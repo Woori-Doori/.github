@@ -57,13 +57,13 @@ https://github.com/user-attachments/assets/7010eef3-c6c2-4935-af7e-51bba3b71b91
 
 ## 서비스 개요
 
-우리두리는 위 문제를 해결하기 위해
+> 우리두리는 위 문제를 해결하기 위해
 소비 데이터를 해석하고 설명하는 구조를 서비스의 핵심으로 설계했습니다.
-
-금융 데이터를 다루는 서비스 특성을 고려해
+>
+>금융 데이터를 다루는 서비스 특성을 고려해
 고가용성과 안정성을 중시한 아키텍처를 기반으로 구현했습니다.
-
-월 목표 관리, 소비 속도 분석, 위험 알림,
+>
+>월 목표 관리, 소비 속도 분석, 위험 알림,
 카테고리·가맹점 TOP5 분석, 소비일기 기능을 제공하며,
 생성형 AI 기반 개인 소비 비서 두리 비서를 통해
 사용자의 소비 흐름을 이해하고 개선 방향을 제시합니다.
@@ -83,6 +83,8 @@ https://github.com/user-attachments/assets/7010eef3-c6c2-4935-af7e-51bba3b71b91
 
 ➡️ 단순 기록이 아닌 예측 기반 피드백을 통해 사용자가 소비를 조기에 조절할 수 있도록 지원합니다.
 
+<br>
+
 ### 2. 카테고리 TOP5 · 가맹점 TOP5 분석
 <img
   src="https://github.com/user-attachments/assets/593323ed-d5a6-446a-94ea-17c8b3a139a3"
@@ -92,6 +94,8 @@ https://github.com/user-attachments/assets/7010eef3-c6c2-4935-af7e-51bba3b71b91
 - 카테고리 총액뿐 아니라, 실제 지출이 반복적으로 발생한 가맹점 단위까지 분석합니다.
 
 ➡️ 작은 금액이라 인지하지 못했던 소비가 어디에서 누적되고 있었는지 한눈에 파악할 수 있도록 구성했습니다.
+
+<br>
 
 ### 3. 소비 캘린더 및 소비일기
 
@@ -104,6 +108,8 @@ https://github.com/user-attachments/assets/7010eef3-c6c2-4935-af7e-51bba3b71b91
 
 ➡️ 시간 흐름과 감정 맥락 속에서 충동 소비와 반복 패턴을 자연스럽게 인지하도록 설계했습니다.
 
+<br>
+
 ### 4. 월말 리포트 및 생성형 AI 두리 비서
 
 <img
@@ -114,7 +120,7 @@ https://github.com/user-attachments/assets/7010eef3-c6c2-4935-af7e-51bba3b71b91
 - 월말 리포트는 자체 소비 점수 기준을 적용해 사용자의 소비 습관을 객관적인 지표로 평가합니다.
 - 생성형 AI 기반 두리 비서는 소비 데이터를 해석해 설명하고, 실행 가능한 행동 방안까지 제안합니다.
 
-우리두리 소비 점수 구성
+[ 우리두리 소비 점수 구성 ]
 | 영역        |  배점 | 평가 내용         | 핵심 기준                  |
 | --------- | --: | ------------- | ---------------------- |
 | 목표 달성도    | 40점 | 월 목표 대비 소비 평가 | 목표 이하 소비 시 가점, 초과 시 감점 |
@@ -127,6 +133,7 @@ https://github.com/user-attachments/assets/7010eef3-c6c2-4935-af7e-51bba3b71b91
 
 <br>
 
+<br>
 
 > **우리두리의 차별성**  
 >  
@@ -141,6 +148,9 @@ https://github.com/user-attachments/assets/7010eef3-c6c2-4935-af7e-51bba3b71b91
 > 지출 데이터를 실제 행동 변화로 연결합니다.
 
 
+<br>
+
+
 ### 운영자 대시보드
 
 운영자 역시 데이터를 기반으로
@@ -151,7 +161,7 @@ https://github.com/user-attachments/assets/7010eef3-c6c2-4935-af7e-51bba3b71b91
 <img
   src="https://github.com/user-attachments/assets/944db133-7486-4cee-8580-c2bf75b18330"
   alt="image"
-  width="80%">
+  width="70%">
 
 카테고리별 지출 금액, 트렌드 변화, 상세 소비 통계를 제공하며 서비스 확장을 위한 기반 데이터로 활용됩니다.
 
@@ -160,7 +170,7 @@ https://github.com/user-attachments/assets/7010eef3-c6c2-4935-af7e-51bba3b71b91
 <img
   src="https://github.com/user-attachments/assets/6b3fc2d1-9f5a-446a-875a-7792dc221370"
   alt="image"
-  width="80%">
+  width="70%">
 
 일별 활성 사용자 수, 신규 사용자 수, 재방문 비율을 통해 서비스 성장 흐름과 사용자 이용 현황을 파악합니다.
 
